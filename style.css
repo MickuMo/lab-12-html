@@ -1,25 +1,52 @@
+/* IMPORTING GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* STYLE STARTS HERE */
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Maitree', serif;
+	text-align: center;
+	color: #76323f;
+}
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	background-color: #d7cec7;
+	padding: 2%;
+	margin: 0;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+header p{
+	text-align: center;
+}
 #main{
-	width: 50%;
-	margin: 2% auto;
+	width: 75%;
+	margin: 0 auto;
+	background-color: #c5d5cb;
+	padding: 2% 1% 0 1%;
 }
 
-.layout {
-	width: 50%;
-	float: left;
+.layout li{
+	text-align: center;
 }
 
 img{
 	max-width: 350px;
 }
 
+#table{
+	width: 75%;
+	margin: 0 auto;
+	clear: both;
+}
 table, td, tr{
 	border: 1px solid #000;
-		}
+}
 
 td, tr{
-			width: 50px;
-			height: 50px;
-		}
-/*p{
-	color: #cccccc;
-}*/
+	width: 50px;
+	height: 50px;
+}
