@@ -38,9 +38,14 @@ img{
 }
 
 #table{
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
 	clear: both;
+}
+#table h3{
+	background-color: #d7cec7;
+	padding: 2%;
+	margin: 20px 0 20px 0;
 }
 table, td, tr{
 	border: 1px solid #000;
